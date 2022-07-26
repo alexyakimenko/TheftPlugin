@@ -2,6 +2,7 @@ package me.alyekx.theft;
 
 import me.alyekx.theft.commands.EnderChestCommand;
 import me.alyekx.theft.commands.InventoryCommand;
+import me.alyekx.theft.events.PlayerAttack;
 import me.alyekx.theft.events.PlayerMove;
 import me.alyekx.theft.events.PlayerRightClick;
 import org.bukkit.entity.Player;
@@ -22,6 +23,7 @@ public final class Theft extends JavaPlugin {
         if(getConfig().getBoolean("Theft.allow")) {
             new PlayerRightClick(this);
             new PlayerMove(this);
+            new PlayerAttack(this);
         }
 
         // Commands

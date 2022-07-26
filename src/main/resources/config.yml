@@ -1,7 +1,12 @@
+# Messages
 players_only_message: "&cOnly players can run this command!"
 no_permission_message: "&cYou have no permissions to run this command!"
 no_arguments_message: "&cNot enough arguments!"
 invalid_argument_message: "&cInvalid argument! Please check usage!"
+danger_message: "&cYou are being robbed, you have some time to catch up with the thief!"
+
+# Theft settings
 Theft:
   allow: true
-  max-distance: 7
+  max_distance: 7
+  time_to_catch: 10
