@@ -4,6 +4,14 @@ no_permission_message: "&cYou have no permissions to run this command!"
 no_arguments_message: "&cNot enough arguments!"
 invalid_argument_message: "&cInvalid argument! Please check usage!"
 danger_message: "&cYou are being robbed, you have some time to catch up with the thief!"
+# Catch messages
+Catch:
+  fail_message: "&cThe thief escaped!"
+  success_message: "&aYou brought justice to this world!"
+# Escape messages
+Escape:
+  fail_message: "&cYou got caught!"
+  success_message: "&aYou ran away!"
 
 # Theft settings
 Theft:
