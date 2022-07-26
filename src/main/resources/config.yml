@@ -4,3 +4,4 @@ no_arguments_message: "&cNot enough arguments!"
 invalid_argument_message: "&cInvalid argument! Please check usage!"
 Theft:
   allow: true
+  max-distance: 7

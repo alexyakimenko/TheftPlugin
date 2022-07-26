@@ -7,9 +7,9 @@ import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerInteractEntityEvent;
 import org.bukkit.inventory.EquipmentSlot;
 
-public class PlayerRightClickEvent implements Listener {
+public class PlayerRightClick implements Listener {
 
-    public PlayerRightClickEvent(Theft plugin) {
+    public PlayerRightClick(Theft plugin) {
 
         plugin.getServer().getPluginManager().registerEvents(this, plugin);
     }
