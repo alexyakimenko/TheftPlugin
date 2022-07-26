@@ -1,0 +1,16 @@
+name: Theft
+version: '${project.version}'
+main: me.alyekx.theft.Theft
+api-version: 1.19
+authors: [ Alyekx ]
+description: Adds the ability to Steal something
+
+commands:
+  inventory:
+    description: Opens player's inventory
+    usage: <command> [player]
+    aliases: [inv]
+  ender_chest:
+    description: Opens player's ender chest
+    usage: <command> [player]
+    aliases: [end_ch, end]
