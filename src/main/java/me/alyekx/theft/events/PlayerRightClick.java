@@ -38,7 +38,7 @@ public class PlayerRightClick implements Listener {
 
         target.playSound(target.getLocation(), Sound.EVENT_RAID_HORN,1.0f, 2.0f);
 
-        if(Theft.right_clicks.containsKey(target) && Theft.right_clicks.get(target).equals(clicker)) {
+        if(Theft.right_clicks.containsKey(target) || Theft.right_clicks.get(target).equals(clicker)) {
             Theft.countdowns.get(
                     Map.of(target, clicker)
             ).cancel();
